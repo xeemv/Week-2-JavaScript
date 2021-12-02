@@ -39,6 +39,6 @@ for (i of names) { //for (names of names) {
 }
 //
 
-
+//this will prompt the window to create a pop-up message
 var name = window.prompt('what is your name?');
 window.alert('Welcome, ${name}');
