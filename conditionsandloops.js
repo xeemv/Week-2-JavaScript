@@ -71,7 +71,7 @@ if ((username === "Tommy1223" && password === "12345") || (username === "Timmy45
 }
 // or the username is "Timmy456" and the password is "6789", print "Admin Login Successful" to the console
 // otherwise, print "Admin Access Denied"
-
+//result = "Admin Access Denied"
 
 
 
@@ -81,6 +81,27 @@ if ((username === "Tommy1223" && password === "12345") || (username === "Timmy45
 // 7-8 will be Middle
 // 9 will be Freshman, 10 Sophomore, 11 Junior, 12 Senior
 // Anything other than these values will return "Error" to the console
+let studentGrade;
+let studentClass;
+
+switch(studentGrade = "K")(
+    case "K":
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:   
+    case 6:   
+        studentClass = "Elementary";
+        break;
+   // case "1": //this is a repearing element
+    //in coding, we want to look for repeating elements and look for another way to write the code. 
+    //** No need to write this case code from K-12 since it's repeating elements
+        //studentClass = "Elementary";
+        //break;
+    
+)
+
 
 
 
