@@ -135,12 +135,12 @@ for(let i = 10; i >= -10; i--){ //i-- is to go backwards from what ever i was
 }
 //
 
-// write a do/while loop that prints 1 through 50
+// #6 write a do/while loop that prints 1 through 50
 let iterator = 1;
-do (
+do {
     console.log(iterator);
     iterator++;
-) while(iterator <= 50); // **you always want to start with the while portion of the loop - it allows us to stop an infinite loop or preventing errors from occurring if we accidentally put something in there**//
+ } while(iterator <= 50); // **you always want to start with the while portion of the loop - it allows us to stop an infinite loop or preventing errors from occurring if we accidentally put something in there**//
 //* this will create a stack overflow that we do not want to occur causing something to crash*//
 
 // edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
