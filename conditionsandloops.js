@@ -1,15 +1,21 @@
 // create a variable called speedLimit and another called mySpeed
 // set their values to numbers between 1 and 100
-
+var speedLimit = 40;
+var mySpeed = 90;
 
 // using a conditional, determine if mySpeed is greater than the speedLimit
-// if true, print "Slow Down! Mom is mad!" to the console
-// if mySpeed is equal to the speedLimit, print "Everyone is happy!" to the console
-// if mySpeed is less than the speedLimit, print "Speed up! Dad is mad!"
+if(mySpeed > speedLimit) {
+    console.log('Slow Down! Mom is mad!'); // if true, print "Slow Down! Mom is mad!" to the console
+} else if(mySpeed == speedLimit) { // if mySpeed is equal to the speedLimit, print "Everyone is happy!" to the console
+    console.log('Everyone is happy!');
+} else {  // if mySpeed is less than the speedLimit, print "Speed up! Dad is mad!"
+    console.log('Speed up! Dad is mad!'); //we are using our own logic since there is a greater than, equal to, so we must have a less then. In this statement, do not need to use "else if" and can leave "else" as is
+} //my answer is 'Slow Down! Mom is mad!
 
 
 // create two variables, one named alarmSet, the other openDoor
 // set them to a boolean value
+
 
 
 // using a conditional, determine if alarm is set. 
