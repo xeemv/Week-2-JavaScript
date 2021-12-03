@@ -75,14 +75,17 @@ if ((username === "Tommy1223" && password === "12345") || (username === "Timmy45
 
 
 
-// write code that will set the value of studentClass based on studentGrade
+// #4 write code that will set the value of studentClass based on studentGrade
 // studentGrade will be K-12
 // K-6 will be Elementary
 // 7-8 will be Middle
 // 9 will be Freshman, 10 Sophomore, 11 Junior, 12 Senior
-// Anything other than these values will return "Error" to the console
+//let studentGrade; how you woud write the code first value if you dont know the grade or class
+//let studentClass;
+
+let studentClass = 1;
 let studentGrade;
-let studentClass;
+
 
 switch(studentGrade = "K"){
     case 'K':
@@ -119,11 +122,9 @@ switch(studentGrade = "K"){
         studentClass = "Senior";
         break;
     default:
-        console.log("Error");
+        console.log("Error"); // Anything other than these values will return "Error" to the console
 }
-
-
-
+console.log(studentClass);
 
 
 
