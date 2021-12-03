@@ -58,11 +58,7 @@ if(alarmSet = true) {   // if alarm is set and door is set to open, print "Sound
 //}
 
 
-
-
 // #3 create two variables, username and password
-var userName = "Timmy456";
-var passWord = "12345";
 // create a conditional, if the username is "Tommy123" and the password is "12345"
 // or the username is "Timmy456" and the password is "6789", print "Admin Login Successful" to the console
 // otherwise, print "Admin Access Denied"
