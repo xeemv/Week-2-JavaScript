@@ -9,7 +9,7 @@ if(mySpeed > speedLimit) {
 } else if(mySpeed == speedLimit) { // if mySpeed is equal to the speedLimit, print "Everyone is happy!" to the console
     console.log('Everyone is happy!');
 } else {  // if mySpeed is less than the speedLimit, print "Speed up! Dad is mad!"
-    console.log('Speed up! Dad is mad!'); //we are using our own logic since there is a greater than, equal to, so we must have a less then. In this statement, do not need to use "else if" and can leave "else" as is
+    console.log('Speed up! Dad is mad!'); //**we are using our own logic since there is a greater than, equal to, so we must have a less then. In this statement, do not need to use "else if" and can leave "else" as is**//
 } //my answer is 'Slow Down! Mom is mad!
 
 
@@ -48,7 +48,7 @@ if(alarmSet = true) {   // if alarm is set and door is set to open, print "Sound
 //if statment is checking to see if something is true
 // if statement, openDoor, and alarmSet = boolean value
 //if alarmSet = true or false
-//if(alarmSet && openDoor) {    <---we can only do this with boolean values or to check to see if something is not empty (empty string values because it is checking for the value)
+//if(alarmSet && openDoor) {    //** <---we can only do this with boolean values or to check to see if something is not empty (empty string values because it is checking for the value)**//
 //  console.log("Sound Alarm!");
 //}
 
@@ -63,7 +63,8 @@ let username; //nothing is placed here because we weren't given the variables; o
 let password; //nothing is placed here because we weren't given the variables; only the condition
 
 // create a conditional, if the username is "Tommy123" and the password is "12345"
-if ((username === "Tommy1223" && password === "12345") || (username === "Timmy456" && password === "64789")) {  //"or" symbol is || **make sure to start one condition before the second condition in the case of "or"
+if ((username === "Tommy1223" && password === "12345") || (username === "Timmy456" && password === "64789")) {  
+//"or" symbol is || **make sure to start one condition before the second condition in the case of "or"
 //use 3 equal symbols(===) to make a string and exactly for both Tommy1234 and Timmy456
     console.log("Admin Login Successful");
 } else {
@@ -132,10 +133,15 @@ console.log(studentClass);
 for(let i = 10; i >= -10; i--){ //i-- is to go backwards from what ever i was 
     console.log(7);
 }
-
+//
 
 // write a do/while loop that prints 1 through 50
-
+let iterator = 1;
+do (
+    console.log(iterator);
+    iterator++;
+) while(iterator <= 50); // **you always want to start with the while portion of the loop - it allows us to stop an infinite loop or preventing errors from occurring if we accidentally put something in there**//
+//* this will create a stack overflow that we do not want to occur causing something to crash*//
 
 // edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
 
