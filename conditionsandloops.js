@@ -125,11 +125,13 @@ switch(studentGrade){ //leave this section as is so that the code could determin
         console.log("Error"); // Anything other than these values will return "Error" to the console
 }
 console.log(studentClass);
-
+//
 
 
 // write a for loop that will iterate backwards from 10 to -10
-
+for(let i = 10; i >= -10; i--){ //i-- is to go backwards from what ever i was 
+    console.log(7);
+}
 
 
 // write a do/while loop that prints 1 through 50
