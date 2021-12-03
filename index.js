@@ -39,8 +39,36 @@ for (i of names) { //for (names of names) {
 }
 //
 
+
+//User Input lesson section
 //this will prompt the window to create a pop-up message
 //do not worry about why line 45 cross out "name"; it will work
 //if you use ' or "" it will not generate the user's name
 var name = window.prompt('what is your name?');
-window.alert(`Welcome, ${name}`);
+window.alert(`Welcome, ${name}`); //what the user will see after they enter their name
+
+//username and password credentials
+let username = prompt(`Username:`);
+let password = prompt(`Password:`);
+
+if (username == 'sammy123' && password == '12345') {
+    alert('welcome back, ' + username);     //most browsers will let you call prompt with out windows.alert
+} else {
+    alert('Incorrect username or password');
+} //next step is to add a loop to keep asking the user to enter username or password until correct
+///
+
+///
+var loggedIn = false;
+
+while(!loggedIn) {
+    let username = prompt(`Username:`);
+    let password = prompt(`Password:`);
+
+    if (username == 'sammy123' && password == '12345') {
+        alert('welcome back, ' + username);
+        loggedIn = true;   //if the login credentials is correct, browser will give access, stop prompt, and end the loop
+    } else {
+        alert('Incorrect username or password');
+    }  
+}
