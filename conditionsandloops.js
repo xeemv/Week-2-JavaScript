@@ -84,8 +84,8 @@ if ((username === "Tommy1223" && password === "12345") || (username === "Timmy45
 let studentGrade;
 let studentClass;
 
-switch(studentGrade = "K")(
-    case "K":
+switch(studentGrade = "K"){
+    case 'K':
     case 1:
     case 2:
     case 3:
@@ -93,14 +93,34 @@ switch(studentGrade = "K")(
     case 5:   
     case 6:   
         studentClass = "Elementary";
-        break;
+        break; //break; means that if it's any of case 1 - 6, it will run the code against those conditions and stop without running the other cases.
+        //a quick check for large cases
+        //if it didn't find it after case 1-6, the code will run against the next set of cases below the first break
    // case "1": //this is a repearing element
     //in coding, we want to look for repeating elements and look for another way to write the code. 
     //** No need to write this case code from K-12 since it's repeating elements
         //studentClass = "Elementary";
-        //break;
-    
-)
+    case 7:
+        studentClass = "Middle";
+        break;
+    case 8:
+        studentClass = "Middle";
+        break;
+    case 9:
+        studentClass = "Freshman";
+        break;
+    case 10:
+        studentClass = "Sophomore";
+        break;
+    case 11:
+        studentClass = "Junior";
+        break;
+    case 12:
+        studentClass = "Senior";
+        break;
+    default:
+        console.log("Error");
+}
 
 
 
