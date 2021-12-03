@@ -46,6 +46,9 @@ for (i of names) { //for (names of names) {
 //if you use ' or "" it will not generate the user's name
 var name = window.prompt('what is your name?');
 window.alert(`Welcome, ${name}`); //what the user will see after they enter their name
+//per Javy and Mark on the general slack channel, vscode strike thru global scope variables not defined in a constructor or other format.
+//per Mark, some web browsers and coding languages reserve "name" as a keyword and does not allow "name" as a variable
+//Per Mark, a way to avoid this is to change the variable to userName or firstName
 
 //username and password credentials
 let username = prompt(`Username:`);
