@@ -1,4 +1,4 @@
-// create a variable called speedLimit and another called mySpeed
+// #1 create a variable called speedLimit and another called mySpeed
 // set their values to numbers between 1 and 100
 var speedLimit = 40;
 var mySpeed = 90;
@@ -13,19 +13,52 @@ if(mySpeed > speedLimit) {
 } //my answer is 'Slow Down! Mom is mad!
 
 
-// create two variables, one named alarmSet, the other openDoor
+// #2 create two variables, one named alarmSet, the other openDoor
 // set them to a boolean value
-
-
+let alarmSet = true; //true = open
+let openDoor = false; //this is saying it's closed
 
 // using a conditional, determine if alarm is set. 
-// if alarm is set and door is set to open, print "Sound Alarm!" to the console
-// otherwise, print "Everything is fine." to the console.
+if(alarmSet = true) {   // if alarm is set and door is set to open, print "Sound Alarm!" to the console
+    console.log('Sound Alarm!');
+} else {
+    console.log("Everything is fine."); // otherwise, print "Everything is fine." to the console.
+}   //this did solve the answer but not what is used in the vide
+
+//if(alarmSet == true) {  **solution 1
+//  if(opendoor == true) {
+//      console.log("Sound Alarm!");
+//  }    
+//}
 
 
+//**soution 2/simplify ---> since the operator "and (symbol = &&)" is in the question and combine w/ openDoor
+//if(alarmSet == true && openDoor == true) {  
+//  if(opendoor == true) {  <---NO NEED FOR THIS LINE OF CODE **DELETE**
+//      console.log("Sound Alarm!");
+//  }    
+//}
+
+//**solutiion 2 code result should be:
+//if(alarmSet == true && openDoor == true) { 
+//  console.log("Sound Alarm!");
+//}
+
+//**solution 3 = simplify some more
+//if statment is checking to see if something is true
+// if statement, openDoor, and alarmSet = boolean value
+//if alarmSet = true or false
+//if(alarmSet && openDoor) {    <---we can only do this with boolean values or to check to see if something is not empty (empty string values because it is checking for the value)
+//  console.log("Sound Alarm!");
+//}
+
+//**solutiion 3 code result should be:
+//if(alarmSet && openDoor) { 
+//  console.log("Sound Alarm!");
+//}
 
 
-// create two variables, username and password
+// #3 create two variables, username and password
 // create a conditional, if the username is "Tommy123" and the password is "12345"
 // or the username is "Timmy456" and the password is "6789", print "Admin Login Successful" to the console
 // otherwise, print "Admin Access Denied"
