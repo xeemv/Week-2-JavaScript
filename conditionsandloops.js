@@ -83,11 +83,11 @@ if ((username === "Tommy1223" && password === "12345") || (username === "Timmy45
 //let studentGrade; how you woud write the code first value if you dont know the grade or class
 //let studentClass;
 
-let studentClass = 1;
-let studentGrade;
+let studentGrade = 11;
+let studentClass;
 
 
-switch(studentGrade = "K"){
+switch(studentGrade){ //leave this section as is so that the code could determine which class a grade is associated with
     case 'K':
     case 1:
     case 2:
