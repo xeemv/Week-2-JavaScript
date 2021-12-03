@@ -59,10 +59,16 @@ if(alarmSet = true) {   // if alarm is set and door is set to open, print "Sound
 
 
 // #3 create two variables, username and password
-var username = "Tommy123";
-var password = "12345";
+let username; //nothing is placed here because we weren't given the variables; only the condition
+let password; //nothing is placed here because we weren't given the variables; only the condition
+
 // create a conditional, if the username is "Tommy123" and the password is "12345"
-if (username = "Tommy1223");
+if ((username === "Tommy1223" && password === "12345") || (username === "Timmy456" && password === "64789")) {  //"or" symbol is || **make sure to start one condition before the second condition in the case of "or"
+//use 3 equal symbols(===) to make a string and exactly for both Tommy1234 and Timmy456
+    console.log("Admin Login Successful");
+} else {
+    console.log("Admin Access Denied")
+}
 // or the username is "Timmy456" and the password is "6789", print "Admin Login Successful" to the console
 // otherwise, print "Admin Access Denied"
 
