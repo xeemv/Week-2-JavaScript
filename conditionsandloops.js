@@ -129,13 +129,13 @@ console.log(studentClass);
 //
 
 
-// write a for loop that will iterate backwards from 10 to -10
+// #6 write a for loop that will iterate backwards from 10 to -10
 for(let i = 10; i >= -10; i--){ //i-- is to go backwards from what ever i was 
     console.log(7);
 }
 //
 
-// #6 write a do/while loop that prints 1 through 50
+// #7 write a do/while loop that prints 1 through 50
 let iterator = 1;
 do {
     console.log(iterator);
@@ -143,7 +143,15 @@ do {
  } while(iterator <= 50); // **you always want to start with the while portion of the loop - it allows us to stop an infinite loop or preventing errors from occurring if we accidentally put something in there**//
 //* this will create a stack overflow that we do not want to occur causing something to crash*//
 
-// edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
+// #8 edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
+
+// divide = using the precentage sign %
+// for example: 10/5 = 2
+// 7/3 = 2 w/ remainder of 1
+do {
+    console.log(iterator % 4); // added modulus to this section of the loop
+    iterator++;
+ } while(iterator <= 50); 
 
 
 // Someone messed up the following for loop
