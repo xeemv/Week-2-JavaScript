@@ -180,3 +180,16 @@ do {
 //      console.log(i);
 //} **this will print 110-10 ==> counting backwards
 
+//OpenClass:
+// #1 what is the expect output?
+var a = 100;
+var b = 200;
+var c = 300;
+console.log(a >= b || a <= c);
+//
+
+//#2
+a = 2;
+b = 15;
+c = 9;
+console.log(a >= b || a <= c && a + c > b);
