@@ -154,11 +154,29 @@ do {
  } while(iterator <= 50); 
 
 
-// Someone messed up the following for loop
+// # 9 Someone messed up the following for loop
 // fix the following infinite loop, uncomment to test
 /* 
     for(let i = 11; i > 10; i++){
         console.log(i);
     } 
 */
+
+// ** do not attempt to take this code out of the uncomment as it will cause a stack overflow and crash something. Just rewrite the correct answer.**//
+
+// the issue is that the i is already starting at 11 which is greater than 10.
+// this means that the loop will continue to run infinitely
+
+// for(let i = 1; i < 10; i++); { <-- this is a possible solution to stop the loop
+//      console.log(i);
+//} **this will print 1-9
+
+// for(let i = 11; i < 100; i++); { <-- this is a possible solution to stop the loop
+//      console.log(i);
+//} **this will print 11-99
+
+
+// for(let i = 110; i > 10; i++); { <-- this is a possible solution to stop the loop
+//      console.log(i);
+//} **this will print 110-10 ==> counting backwards
 
