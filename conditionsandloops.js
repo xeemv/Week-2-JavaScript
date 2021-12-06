@@ -230,3 +230,12 @@ if(num1 == num2) {
     console.log("C");
 }
 //
+
+// #3 What will print to the console?
+var num1 = 37;
+if(num1){
+    console.log("Parakeet")
+} else {
+    console.log("Parrot")
+}
+//
