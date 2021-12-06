@@ -220,3 +220,13 @@ if (45 > 45) {
     console.log("Labradors")
 }
 //
+
+// #2 What will print to the console if num1 = 3 and num2 = 5?
+if(num1 == num2) {
+    console.log("A");
+} else if (num1 > num2) {
+    console.log("B");
+} else {
+    console.log("C");
+}
+//
