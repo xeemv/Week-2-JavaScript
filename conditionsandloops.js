@@ -212,3 +212,11 @@ var num3 = 45;
 
 console.log(num1 >= num2 && num3 > 2 );
 //
+
+// #1 What will be printed to the console? ---Openclass Conditionals
+if (45 > 45) {
+    console.log("Poodles")
+}   else {
+    console.log("Labradors")
+}
+//
