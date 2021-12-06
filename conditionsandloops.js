@@ -204,3 +204,11 @@ console.log(num1 >= num2);
 console.log(num2 <= num3);
 console.log(num1 < num3);
 //
+
+// #4 What is the expected output?
+var num1 = 16;
+var num2 = 52;
+var num3 = 45;
+
+console.log(num1 >= num2 && num3 > 2 );
+//
