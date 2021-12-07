@@ -100,7 +100,7 @@ switch(studentGrade){ //leave this section as is so that the code could determin
         break; //break; means that if it's any of case 1 - 6, it will run the code against those conditions and stop without running the other cases.
         //a quick check for large cases
         //if it didn't find it after case 1-6, the code will run against the next set of cases below the first break
-   // case "1": //this is a repearing element
+   // case "1": //this is a repeating element
     //in coding, we want to look for repeating elements and look for another way to write the code. 
     //** No need to write this case code from K-12 since it's repeating elements
         //studentClass = "Elementary";
@@ -239,3 +239,12 @@ if(num1){
     console.log("Parrot")
 }
 //
+
+// #5 What will print to the console if num1 = 5 and num2 = 5?
+if (num1 == num2) {
+    console.log("A");
+} else if (num1 >= num2) {
+    console.log("B");
+} else {
+    console.log("C");
+}
