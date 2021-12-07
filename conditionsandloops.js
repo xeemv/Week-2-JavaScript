@@ -241,6 +241,8 @@ if(num1){
 //
 
 // #5 What will print to the console if num1 = 5 and num2 = 5?
+num1 = 5
+num2 = 5
 if (num1 == num2) {
     console.log("A");
 } else if (num1 >= num2) {
@@ -248,3 +250,4 @@ if (num1 == num2) {
 } else {
     console.log("C");
 }
+//
