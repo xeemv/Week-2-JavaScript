@@ -251,3 +251,15 @@ if (num1 == num2) {
     console.log("C");
 }
 //
+
+// Loop section
+// #1 - will the following code accomplish the same task?
+
+//var i = 0;
+//do{
+//    if(i % 3 === 0){
+//        console.log(i);
+//    }
+//   i++;
+//} 
+//while (i <= 99)
