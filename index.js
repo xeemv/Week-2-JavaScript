@@ -6,12 +6,16 @@ for (let i = 0; i < 10; i++) {
   console.log(i);
 }
 console.log('whatever is next');
+//
+
 //this will pull the even numbers out of the loop and only display those using the % sign
 for (let i = 0; i <= 20; i++) {
     if (i % 2 == 0) {
     console.log(i);
     }
 }
+//
+
 //while loop
 let names = ['Sam', 'Tom', 'Hillary'];
 for (let i = 0; i < names.length; i++) {
