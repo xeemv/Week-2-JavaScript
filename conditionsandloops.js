@@ -264,4 +264,9 @@ if (num1 == num2) {
 //} 
 //while (i <= 99)
 
+// loops #3
+do {
+    console.log("The bowl contains " + currentCupsOfRice++ + " cups of rice.");
+} while(currentCupsOfRice !== requiredCupsOfRice);
+console.log("We have enough rice!");
 //
