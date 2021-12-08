@@ -266,7 +266,7 @@ if (num1 == num2) {
 
 // loops #3
 do {
-    console.log("The bowl contains " + currentCupsOfRice++ + " cups of rice.");
-} while(currentCupsOfRice !== requiredCupsOfRice);
+     console.log("The bowl contains " + currentCupsOfRice++ + " cups of rice.");
+ } while(currentCupsOfRice !== requiredCupsOfRice);
 console.log("We have enough rice!");
 //
