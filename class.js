@@ -12,4 +12,20 @@ console.log(question); //just checked by typing in "hi" and it was saved
 
 //check the question for a few things
 // give them an answer
-
+if(question === "Does he love me?") {
+    alert("NOOO")
+}
+    else {
+        alert("Maybe")
+    }
+// This code and alert did work
+if(question.includes("Does he love me?")) {
+    alert("NOOO")
+}
+else if(question.includes("Do they love me?")) { //the question was added
+        alert("Yessss")
+    }
+else {
+        alert("Maybe")
+    }
+// make sure the else, else if all start right under the "if" for it to work based on this situation
