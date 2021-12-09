@@ -39,10 +39,10 @@ var question = prompt("What is your question?");
 while(!question.includes("?")){
     question = prompt("What's your Question");
 }
-if(question.includes("?")) {
+// if(question.includes("?")) {
 // we are going to loop and keep asking the user to ask the question because we want a "?" in their question
 // ok to put ifs inside ifs
-}
+// }
 if(question === "Money?") {
     alert("NOOO")
 }
