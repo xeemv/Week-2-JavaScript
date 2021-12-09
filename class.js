@@ -29,3 +29,35 @@ else {
         alert("Maybe")
     }
 // make sure the else, else if all start right under the "if" for it to work based on this situation
+
+
+
+
+// new part:
+var question = prompt("What is your question?");
+
+while(!question.includes("?")){
+    question = prompt("What's your Question");
+}
+if(question.includes("?")) {
+// we are going to loop and keep asking the user to ask the question because we want a "?" in their question
+// ok to put ifs inside ifs
+}
+if(question === "Money?") {
+    alert("NOOO")
+}
+else {
+    alert("Maybe")
+    }
+// This code and alert did work
+if(question.includes("Love?")) {
+    alert("NOOO")
+}
+else if(question.includes("Do they love me?")) { //the question was added
+    alert("Yessss")
+}
+else {
+    alert("Maybe")
+}
+console.log(question);
+//
