@@ -65,19 +65,58 @@
 // class problem work
 // Ask the user to pick a number to count to
 
-var number = prompt("What number should I count up to?"); //the computer might think that this is a text and not a string. So you will need to use "parseInt"
+// var number = prompt("What number should I count up to?"); //the computer might think that this is a text and not a string. So you will need to use "parseInt"
 // parseInt(number); - dont use this one
-number = parseInt(number);
-console.log(number);
+// number = parseInt(number);
+// console.log(number);
 
-while(number === NaN) {
-    number = prompt("What number should I count up to?");
-    number = parseInt(number);
- } // this is to loop if the user does not enter a number or used a text instead of a number
+// while(number === NaN) {
+//     number = prompt("What number should I count up to?");
+//     number = parseInt(number);
+//  } // this is to loop if the user does not enter a number or used a text instead of a number
 
-// count up to that number
-// use for loop
-for(let i = 0; i < number; i++) {
-    // the code to run multiple times
-    alert("looped a time")
-} // for(let i = 3; i < 3; i++) { **this will not run since 3 = 3 so the code will only go from 0, 1, 2 and not stop on 3
+// // count up to that number
+// // use for loop
+// for(let i = 0; i < number; i++) {
+//     // the code to run multiple times
+//     alert("looped a time")
+// } // for(let i = 3; i < 3; i++) { **this will not run since 3 = 3 so the code will only go from 0, 1, 2 and not stop on 3
+
+// var name = "Tommy";
+
+// var age = 52;
+
+// if (name == "Tommy") {
+
+//   console.log("Hi, Tommy!");
+
+// } else if (age == 52) {
+
+//   console.log("52 years old.");
+
+// // }
+// var num = 9;
+
+// for (var num = 0; num <= 9; num++) {
+//     console.log(num);
+// }
+// var i = 0;
+
+// for(var i = 0; i < 100; i++){
+//     if(i % 2 === 1) {
+//     console.log(i);
+//     }
+// }
+var letterGrade = 25;
+
+if (letterGrade >= 90) {
+    console.log(letterGrade = "A");
+} else if(letterGrade >= 80) {
+    console.log(letterGrade = "B");
+} else if(letterGrade >= 70) {
+    console.log(letterGrade = "C");
+} else if(letterGrade >= 60) {
+    console.log(letterGrade = "D");
+} else if(letterGrade <= 59) {
+    console.log(letterGrade = "F");
+}

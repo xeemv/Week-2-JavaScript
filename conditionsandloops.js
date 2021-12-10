@@ -265,8 +265,28 @@ if (num1 == num2) {
 //while (i <= 99)
 
 // loops #3
-do {
-     console.log("The bowl contains " + currentCupsOfRice++ + " cups of rice.");
- } while(currentCupsOfRice !== requiredCupsOfRice);
-console.log("We have enough rice!");
-//
+// // do {
+//      console.log("The bowl contains " + currentCupsOfRice++ + " cups of rice.");
+//  } while(currentCupsOfRice !== requiredCupsOfRice);
+// console.log("We have enough rice!");
+// //
+
+// // for (var i = 0; i < 10; i--) {
+
+//     console.log(i);
+  
+//   }
+
+var name = "Tommy";
+
+var age = 52;
+
+if (name == "Tommy") {
+
+  console.log("Hi, Tommy!");
+
+} else if (age == 52) {
+
+  console.log("52 years old.");
+
+}
