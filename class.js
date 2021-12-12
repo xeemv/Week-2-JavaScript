@@ -107,16 +107,21 @@
 //     console.log(i);
 //     }
 // }
-var letterGrade = 25;
+// var letterGrade = 25;
 
-if (letterGrade >= 90) {
-    console.log(letterGrade = "A");
-} else if(letterGrade >= 80) {
-    console.log(letterGrade = "B");
-} else if(letterGrade >= 70) {
-    console.log(letterGrade = "C");
-} else if(letterGrade >= 60) {
-    console.log(letterGrade = "D");
-} else if(letterGrade <= 59) {
-    console.log(letterGrade = "F");
+// if (letterGrade >= 90) {
+//     console.log(letterGrade = "A");
+// } else if(letterGrade >= 80) {
+//     console.log(letterGrade = "B");
+// } else if(letterGrade >= 70) {
+//     console.log(letterGrade = "C");
+// } else if(letterGrade >= 60) {
+//     console.log(letterGrade = "D");
+// } else if(letterGrade <= 59) {
+//     console.log(letterGrade = "F");
+// }
+
+
+for (let i = 0; i <= 11; i++) {
+console.log(i);
 }
